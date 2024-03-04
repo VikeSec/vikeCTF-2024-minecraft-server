@@ -6,3 +6,5 @@ ENV ENABLE_WHITELIST=true
 ENV WHITELIST=notch,ViktorViking
 ENV TYPE=PURPUR
 ENV USE_SIMD_FLAGS=true
+
+VOLUME [ "/data" ]
